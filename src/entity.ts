@@ -13,7 +13,11 @@ export enum EntityType {
    * International, etc.
    */
   GREGION = "GREGION",
-  WEBSITE = "WEBSITE"
+  WEBSITE = "WEBSITE",
+  /**
+   * Operation system
+   */
+  OS = "OS"
 }
 
 /**

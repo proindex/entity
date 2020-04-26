@@ -1,4 +1,4 @@
-import { createSlug } from "./slug";
+import { createSlug, trimSlug } from "./slug";
 import { MAX_ID_LENGTH } from "./id";
 
 export type DataValue = {
@@ -27,8 +27,10 @@ function createDataValueId(value: DataValue) {
  */
 export function createPropertyValueId(propertyId: string, value: DataValue) {
   const end = createDataValueId(value);
-  return `${propertyId.replace(/^property_/, "")}_${end}`
-    .toLowerCase()
-    .trim()
-    .substr(0, MAX_ID_LENGTH);
+  return trimSlug(
+    `${propertyId.replace(/^property_/, "")}_${end}`
+      .toLowerCase()
+      .trim()
+      .substr(0, MAX_ID_LENGTH)
+  );
 }

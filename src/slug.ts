@@ -1,5 +1,9 @@
 import slugify from "slugify";
 
+export function trimSlug(slug: string) {
+  return slug.replace(/-+$/g, "").replace(/^-+/g, "");
+}
+
 /**
  * Creates a slug from a name.
  * @param name Input name/title/text
@@ -9,5 +13,5 @@ export function createSlug(name: string, maxLength: number = 50) {
   let slug = slugify(name.trim().toLowerCase()).replace(/[^a-z0-9]+/g, "-");
   slug = maxLength ? slug.substr(0, maxLength) : slug;
 
-  return slug.replace(/-+$/g, "").replace(/^-+/g, "");
+  return trimSlug(slug);
 }

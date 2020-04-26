@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    ".git": true,
+    "**/.DS_Store": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "dest/**": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "npm.packageManager": "yarn",
+  "typescript.preferences.importModuleSpecifier": "relative"
+}

@@ -1,5 +1,5 @@
-import { createSlug } from "slug";
-import { MAX_ID_LENGTH } from "id";
+import { createSlug } from "./slug";
+import { MAX_ID_LENGTH } from "./id";
 
 export enum EntityType {
   BRAND = "BRAND",

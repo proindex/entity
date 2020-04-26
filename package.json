@@ -1,5 +1,5 @@
 {
-  "name": "@prodindex/entity",
+  "name": "@proindex/entity",
   "version": "0.0.1",
   "description": "Entity helpers",
   "main": "dest/index.js",

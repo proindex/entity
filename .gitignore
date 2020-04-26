@@ -1,0 +1,8 @@
+.DS_Store
+.env*
+node_modules
+*.log
+*.tgz
+dest
+package-lock.json
+tsconfig.tsbuildinfo

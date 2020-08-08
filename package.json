@@ -6,7 +6,6 @@
   "repository": "https://github.com/proindex/entity.git",
   "author": "Dumitru C. <canteadumitru@gmail.com>",
   "license": "MIT",
-  "private": false,
   "dependencies": {
     "slugify": "^1.4.0",
     "ulid": "^2.3.0"

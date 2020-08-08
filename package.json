@@ -1,17 +1,17 @@
 {
   "name": "@proindex/entity",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Entity helpers",
-  "main": "dest/index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/proindex/entity.git",
   "author": "Dumitru C. <canteadumitru@gmail.com>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "dependencies": {
     "slugify": "^1.4.0",
     "ulid": "^2.3.0"
   },
   "devDependencies": {
-    "typescript": "^3.8.3"
+    "typescript": "latest"
   }
 }

@@ -5,7 +5,7 @@
   },
   "search.exclude": {
     "**/node_modules": true,
-    "dest/**": true
+    "dist/**": true
   },
   "typescript.tsdk": "node_modules/typescript/lib",
   "npm.packageManager": "yarn",

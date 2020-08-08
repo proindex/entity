@@ -1,1 +1,1 @@
-# Entity helpers
+# Product index entity helpers
